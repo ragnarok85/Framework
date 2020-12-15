@@ -323,7 +323,7 @@ public abstract class AbstractIOProcessor implements IOProcessor {
 		File prFile = prepareFileForProblemReport();
 		
 		Resource datasetPLDResource = ModelFactory.createDefaultModel().createResource(this.datasetPLD);
-
+		System.out.println(prFile.getPath());
 		ProblemReport report;
 		try {
 			report = new ProblemReport(datasetPLDResource, prFile);
@@ -435,7 +435,7 @@ public abstract class AbstractIOProcessor implements IOProcessor {
 				
 				logger.info("[IOProcessor - {}] Quality metadata for {} written successfully. File stored: {}",this.datasetPLD,metadataFilePath);
 			} catch(MetadataException | IOException ex) {
-				ExceptionOutput.output(ex, "Error in generating quality metadata file for "+this.datasetPLD, logger);
+				ExceptionOutput.output(ex, "Error in generating quality metadata file for "+this.datasetPLD+"----"+this.getMetadataBaseDir()+"-----"+fileMetadata.getPath(), logger);
 			}
 			
 			this.isGeneratingQMD = false;

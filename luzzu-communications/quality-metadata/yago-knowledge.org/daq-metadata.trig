@@ -1,0 +1,102 @@
+<https://w3id.org/lodquator/resource/cf780f3b-7465-4a35-b35f-e693499a3bb9>
+        a       <http://purl.org/eis/vocab/daq#QualityGraph> ;
+        <http://purl.org/linked-data/cube#structure>
+                <http://purl.org/eis/vocab/daq#dsd> .
+
+<https://w3id.org/lodquator/resource/cf780f3b-7465-4a35-b35f-e693499a3bb9> {
+    <https://w3id.org/lodquator/resource/bb61811e-0b84-45d8-9a5f-858d2714c715>
+            a       <http://purl.org/eis/vocab/dqm#Intrinsic> ;
+            <http://purl.org/eis/vocab/dqm#hasSyntacticValidityDimension>
+                    <https://w3id.org/lodquator/resource/bda7ff4e-bed7-4275-b38f-a4f4c33702d4> ;
+            <http://theme-e.adaptcentre.ie/lqm#hasVolumeDimension>
+                    <https://w3id.org/lodquator/resource/d306906f-4199-4df8-87a0-3ad35ca26217> .
+    
+    <https://w3id.org/lodquator/resource/d306906f-4199-4df8-87a0-3ad35ca26217>
+            a       <http://theme-e.adaptcentre.ie/lqm#Volume> ;
+            <http://theme-e.adaptcentre.ie/lqm#hasCountMetric>
+                    <https://w3id.org/lodquator/resource/ffff3bcc-125c-4106-be11-055c6ca9bf66> .
+    
+    <https://w3id.org/lodquator/resource/ffff3bcc-125c-4106-be11-055c6ca9bf66>
+            a       <http://theme-e.adaptcentre.ie/lqm#CountMetric> ;
+            <http://purl.org/eis/vocab/daq#hasObservation>
+                    <https://w3id.org/lodquator/resource/2c067f31-6eb5-484e-8e71-cc319b37baf7> .
+    
+    <https://w3id.org/lodquator/resource/4ade6af3-53f4-4fb0-a156-4871778b6aa7>
+            a       <http://purl.org/eis/vocab/dqm#Interpretability> ;
+            <http://purl.org/eis/vocab/dqm#hasNoBlankNodeMetric>
+                    <https://w3id.org/lodquator/resource/c80b932b-f60a-4a08-aaff-568a07091936> .
+    
+    <https://w3id.org/lodquator/resource/2c067f31-6eb5-484e-8e71-cc319b37baf7>
+            a       <http://purl.org/eis/vocab/daq#Observation> ;
+            <http://purl.org/eis/vocab/daq#computedOn>
+                    <https://yago-knowledge.org> ;
+            <http://purl.org/eis/vocab/daq#isEstimate>
+                    false ;
+            <http://purl.org/eis/vocab/daq#metric>
+                    <https://w3id.org/lodquator/resource/ffff3bcc-125c-4106-be11-055c6ca9bf66> ;
+            <http://purl.org/eis/vocab/daq#value>
+                    "1668"^^<http://www.w3.org/2001/XMLSchema#long> ;
+            <http://purl.org/linked-data/cube#dataSet>
+                    <https://w3id.org/lodquator/resource/cf780f3b-7465-4a35-b35f-e693499a3bb9> ;
+            <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod>
+                    "2020-12-15T16:23:56.473Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://w3id.org/lodquator/resource/1219e936-3c86-4c2a-9b6f-ecaab6c1461b>
+            a       <http://purl.org/eis/vocab/daq#Observation> ;
+            <http://purl.org/eis/vocab/daq#computedOn>
+                    <https://yago-knowledge.org> ;
+            <http://purl.org/eis/vocab/daq#isEstimate>
+                    false ;
+            <http://purl.org/eis/vocab/daq#metric>
+                    <https://w3id.org/lodquator/resource/c80b932b-f60a-4a08-aaff-568a07091936> ;
+            <http://purl.org/eis/vocab/daq#value>
+                    "0.9734939759036144"^^<http://www.w3.org/2001/XMLSchema#double> ;
+            <http://purl.org/linked-data/cube#dataSet>
+                    <https://w3id.org/lodquator/resource/cf780f3b-7465-4a35-b35f-e693499a3bb9> ;
+            <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod>
+                    "2020-12-15T16:23:56.473Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> ;
+            <http://www.w3.org/ns/prov#generated>
+                    <https://w3id.org/lodquator/resource/de4f120c-422c-4cf6-b259-f71543e808ff> ;
+            <http://www.w3.org/ns/prov#wasGeneratedBy>
+                    <http://purl.org/eis/vocab/dqm#LuzzuProvenanceAgent> .
+    
+    <https://w3id.org/lodquator/resource/c80b932b-f60a-4a08-aaff-568a07091936>
+            a       <http://purl.org/eis/vocab/dqm#NoBlankNodeMetric> ;
+            <http://purl.org/eis/vocab/daq#hasObservation>
+                    <https://w3id.org/lodquator/resource/1219e936-3c86-4c2a-9b6f-ecaab6c1461b> .
+    
+    <https://w3id.org/lodquator/resource/725b025f-472f-451c-8142-f14329758a16>
+            a       <http://purl.org/eis/vocab/daq#Observation> ;
+            <http://purl.org/eis/vocab/daq#computedOn>
+                    <https://yago-knowledge.org> ;
+            <http://purl.org/eis/vocab/daq#isEstimate>
+                    false ;
+            <http://purl.org/eis/vocab/daq#metric>
+                    <https://w3id.org/lodquator/resource/80bff194-1ac4-433a-8b3a-63aaf80db688> ;
+            <http://purl.org/eis/vocab/daq#value>
+                    false ;
+            <http://purl.org/linked-data/cube#dataSet>
+                    <https://w3id.org/lodquator/resource/cf780f3b-7465-4a35-b35f-e693499a3bb9> ;
+            <http://purl.org/linked-data/sdmx/2009/dimension#timePeriod>
+                    "2020-12-15T16:23:56.473Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+    
+    <https://w3id.org/lodquator/resource/80bff194-1ac4-433a-8b3a-63aaf80db688>
+            a       <http://theme-e.adaptcentre.ie/lqm#SyntaxErrorsMetric> ;
+            <http://purl.org/eis/vocab/daq#hasObservation>
+                    <https://w3id.org/lodquator/resource/725b025f-472f-451c-8142-f14329758a16> .
+    
+    <https://w3id.org/lodquator/resource/174a7c24-848b-4dd6-98c9-0f29b3c35c04>
+            a       <http://purl.org/eis/vocab/dqm#Representational> ;
+            <http://purl.org/eis/vocab/dqm#hasInterpretabilityDimension>
+                    <https://w3id.org/lodquator/resource/4ade6af3-53f4-4fb0-a156-4871778b6aa7> .
+    
+    <https://w3id.org/lodquator/resource/de4f120c-422c-4cf6-b259-f71543e808ff>
+            a       <http://purl.org/eis/vocab/daq#MetricProfile> ;
+            <http://purl.org/eis/vocab/daq#totalDatasetTriples>
+                    "1668"^^<http://www.w3.org/2001/XMLSchema#int> .
+    
+    <https://w3id.org/lodquator/resource/bda7ff4e-bed7-4275-b38f-a4f4c33702d4>
+            a       <http://purl.org/eis/vocab/dqm#SyntacticValidity> ;
+            <http://theme-e.adaptcentre.ie/lqm#hasSyntaxErrors>
+                    <https://w3id.org/lodquator/resource/80bff194-1ac4-433a-8b3a-63aaf80db688> .
+}
